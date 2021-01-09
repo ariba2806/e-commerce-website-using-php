@@ -1,0 +1,843 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!--header-->
+<header id="header">
+<div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+<p class="font-size-12 text-black-50 m-0">Ariba Ahmed's E-commerce Website</p>
+<div class="font-size-14">
+
+<a href="#" class="px-3 border-right border-left text-dark">Login</a>
+<a href="#" class="px-3 border-right text-dark">Wishlist</a>
+</div>
+</div>
+
+
+<!--primary nav-->
+<nav class="navbar navbar-expand-lg navbar-light py-3" style="background-color:pink;">
+  <a class="navbar-brand" href="#"><h1 style="font-family:Snell Roundhand,cursive;">Shopee</h1></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav m-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><h5>On Sale </h5></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><h5>Category </h5></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><h5>Products <i class="fas fa-chevron-down"></i></h5></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><h5>Blog </h5></a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#"><h5>Comming Soon</h5></a>
+      </li>
+    </ul>
+    <form action="#" class="font-size-14">
+<a href="#" class="py-2 rounded-pill color-yellow ">
+<span class="font-size-16 px-2 text-white align-bottom"><i class="fas fa-shopping-cart"></i></span>
+<span class="px-3 py-2 rounded-pill text-dark bg-light align-bottom">0</span>
+</a>
+    </form>
+  </div>
+</nav>
+</header>
+<!--header-->
+
+<!--main-->
+<main id="main-site">
+<!--owl carousel-->
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./asset/slide1.jpeg" class="d-block w-100 h-75" alt="...">
+           <div class="carousel-caption d-none d-md-block text-dark">
+        <h2>First slide label</h2>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./asset/slide2.jpg" class="d-block w-100 h-75" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./asset/slide3.jpeg" class="d-block w-100 h-75" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!--tiop sale-->
+<section id="top-sale">
+<div class="container py-5">
+<h3>Top Sale</h3>
+<hr>
+
+<!--carousel-->
+<div class="owl-carousel owl-theme">
+<div class="item py-2">
+<div class="product">
+<a href="#"><img src="./asset/cup1.jpg" class="img-fluid  xyz"></a>
+<div class="text-center">
+<h6>Choco Cups</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+
+<div class="item py-2 ">
+<div class="product">
+<a href="#"><img src="./asset/cup2.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Mixed Fruit Cups</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+
+<div class="item py-2 ">
+<div class="product">
+<a href="#"><img src="./asset/choco2.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Choco Cups</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+
+<div class="item py-2 ">
+<div class="product">
+<a href="#"><img src="./asset/strawberry2.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Strawberry Cups</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+
+<div class="item py-2 ">
+<div class="product">
+<a href="#"><img src="./asset/cup.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>orange Cups</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+
+<div class="item py-2">
+<div class="product">
+<a href="#"><img src="./asset/cup4.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Funny Cups</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+
+<div class="item py-2 ">
+<div class="product">
+<a href="#"><img src="./asset/animal.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Animal Cups</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+
+<div class="item py-2 ">
+<div class="product">
+<a href="#"><img src="./asset/mini.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Minie Cups</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<!--special price-->
+
+<section id="special-price">
+<div class="container">
+<h3>Special Price</h3>
+<div id="filters" class="button-group text-right font-size-16">
+<button class="btn is-checked" data-filter="">All Categories</button>
+<button class="btn" data-filter=".Chocolate">Chocolate</button>
+<button class="btn" data-filter=".StrawBerry">StrawBerry</button>
+<button class="btn" data-filter=".Vanilla">Vanilla</button>
+</div>
+
+<div class="grid">
+<div class="grid-item Chocolate border">
+<div class="item py-2 " style="width:200px;height:150px;">
+<div class="product">
+<a href="#"><img src="./asset/animal.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Chocolate Animal Cups</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="grid-item StrawBerry border">
+<div class="item py-2" style="width:200px;height:150px;">
+<div class="product">
+<a href="#"><img src="./asset/cup1.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Strawberry Cups</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="grid-item Chocolate border">
+<div class="item py-2" style="width:200px;height:150px;">
+<div class="product">
+<a href="#"><img src="./asset/cup2.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Cups</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="grid-item Vanilla border">
+<div class="item py-2" style="width:200px;height:150px;">
+<div class="product">
+<a href="#"><img src="./asset/cup4.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Vanilla Cups1</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="grid-item Chocolate border">
+<div class="item py-2" style="width:200px;height:150px;">
+<div class="product">
+<a href="#"><img src="./asset/choco1.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Chocolate Cups1</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="grid-item Chocolate border">
+<div class="item py-2" style="width:200px;height:150px;">
+<div class="product">
+<a href="#"><img src="./asset/mini.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>choc Cups2</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="grid-item StrawBerry border">
+<div class="item py-2" style="width:200px;height:150px;">
+<div class="product">
+<a href="#"><img src="./asset/strawberry1.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>StrawBerry Cups1</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="grid-item Vanilla border">
+<div class="item py-2" style="width:200px;height:150px;">
+<div class="product">
+<a href="#"><img src="./asset/vanilla2.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Vanilla Cups4</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="grid-item Vanilla border">
+<div class="item py-2" style="width:200px;height:150px;">
+<div class="product">
+<a href="#"><img src="./asset/vanilla3.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Vanilla Cups4</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="grid-item Chocolate border">
+<div class="item py-2" style="width:200px;height:150px;">
+<div class="product">
+<a href="#"><img src="./asset/choco4.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Vanilla Cups4</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="grid-item StrawBerry border">
+<div class="item py-2" style="width:200px;height:150px;">
+<div class="product">
+<a href="#"><img src="./asset/strawberry2.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Vanilla Cups4</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="grid-item Vanilla border">
+<div class="item py-2" style="width:200px;height:150px;">
+<div class="product">
+<a href="#"><img src="./asset/vanilla4.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Vanilla Cups4</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="grid-item Vanilla border">
+<div class="item py-2" style="width:200px;height:150px;">
+<div class="product">
+<a href="#"><img src="./asset/vanilla1.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Vanilla Cups4</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="grid-item StrawBerry border">
+<div class="item py-2" style="width:200px;height:150px;">
+<div class="product">
+<a href="#"><img src="./asset/strawberry1.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Vanilla Cups4</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+<br>
+</section>
+
+<section id="new-phones">
+<div class="container">
+<h3>New Phones</h3>
+<hr>
+
+<div class="owl-carousel owl-theme">
+<div class="item py-2 bg-light">
+<div class="product">
+<a href="#"><img src="./asset/cup1.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Choco Cups</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+
+<div class="item py-2 bg-light">
+<div class="product">
+<a href="#"><img src="./asset/cup2.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Mixed Fruit Cups</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+
+<div class="item py-2 bg-light">
+<div class="product">
+<a href="#"><img src="./asset/cup.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>orange Cups</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+</div>
+</div>
+</div>
+
+<div class="item py-2 bg-light">
+<div class="product">
+<a href="#"><img src="./asset/cup4.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Funny Cups</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+
+<div class="item py-2 bg-light">
+<div class="product">
+<a href="#"><img src="./asset/animal.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Animal Cups</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+
+<div class="item py-2 bg-light">
+<div class="product">
+<a href="#"><img src="./asset/mini.jpg" class="img-fluid xyz"></a>
+<div class="text-center">
+<h6>Minie Cups</h6>
+<div class="rating text-warning font-size-12">
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="fas fa-star"></i></span>
+<span><i class="far fa-star"></i></span>
+</div>
+<div class="price py-2">
+<span>$152</span>
+</div>
+<button type="submit" class="btn btn-warning font-size-12 ">Add to cart</button>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<!--blogs-->
+<section id="blogs">
+<div class="container py-4">
+<h3>Latest Blogs</h3>
+<hr>
+<div class="owl-carousel owl-theme mb-2">
+<div class="item">
+<div class="card border-0 mr-5 p-3" style="box-shadow:10px 10px 18px #888888;width:19rem;background-color:pink;">
+<h4 class="card-title">Upcoming Cakes</h4>
+<img src="./asset/fr1.jpg" class="card-img-top xyz">
+<p class="card-text font-size-14 text-black-50 py-1 ">This is a fab cake with lots of jelly and fruits and tasty topping which will be available very soon in your nearby stores</p>
+<a href="#" class=" text-left">Go Somewhere</a>
+</div>
+</div>
+
+
+<div class="item">
+<div class="card border-0 mr-5 p-3" style="box-shadow:5px 10px 18px #888888;width:18rem;background-color:pink;">
+<h4 class="card-title">Upcoming Cakes</h4>
+<img src="./asset/fr.jpg" class="card-img-top xyz">
+<p class="card-text font-size-14 text-black-50 py-1 ">This is a fab cake with lots of jelly and fruits and tasty topping which will be available very soon in your nearby stores</p>
+<a href="#" class=" text-left">Go Somewhere</a>
+</div>
+</div>
+
+<div class="item">
+<div class="card border-0 mr-5 p-3" style="box-shadow:5px 10px 18px #888888;width:18rem;background-color:pink;">
+<h4 class="card-title">Upcoming Cakes</h4>
+<img src="./asset/fr2.jpg" class="card-img-top xyz">
+<p class="card-text font-size-14 text-black-50 py-1 ">This is a fab cake with lots of jelly and fruits and tasty topping which will be available very soon in your nearby stores</p>
+<a href="#" class=" text-left">Go Somewhere</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!--main-->
+<br>
+<br>
+<!--footer-->
+<footer id="footer" class="bg-dark text-white py-4 ">
+<div class="container">
+<div class="row justify-content-between">
+<div class="col-lg-3 col-12 mr-6">
+<h4 class="font-size-20 ">Cakes Shoppee</h4>
+<p class="font-size-14 text-white-50">This is a fab cake with lots of jelly and fruits and tasty topping which will be available very soon in your nearby stores</p>
+</div>
+<div class="col-lg-4 col-12">
+<h4 class="font-size-20">NewsLatter</h4>
+<form class="form-row">
+<div class="col">
+<input type="text" class="form-control" placeholder="Email">
+</div>
+<div class="col">
+<button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+</div>
+</form>
+</div>
+
+<div class="col-lg-2 col-12">
+<h4 class="font-size-20">Information</h4>
+<div class="d-flex flex-column flex-wrap">
+<a href="#" class="font-size-14 text-white-50 pb-1">About Us</a>
+<a href="#" class="font-size-14 text-white-50 pb-1">Delivery Information</a>
+<a href="#" class="font-size-14 text-white-50 pb-1">Privacy Policy</a>
+<a href="#" class="font-size-14 text-white-50 pb-1">Terms and Conditions</a>
+</div>
+</div>
+
+<div class="col-lg-2">
+<h4 class="font-size-20">Account</h4>
+<div class="d-flex flex-column flex-wrap">
+<a href="#" class="font-size-14 text-white-50 pb-1">My Account</a>
+<a href="#" class="font-size-14 text-white-50 pb-1">Order History</a>
+<a href="#" class="font-size-14 text-white-50 pb-1">Wish List</a>
+<a href="#" class="font-size-14 text-white-50 pb-1">NewsLatters</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<!--footer-->
+<script>
+
+function ariba(){
+    var input = parseInt(document.getElementById('input1').value);
+    if(input>=1 && input <=9){
+        input++;
+  document.getElementById("input1").value=input;
+    }
+  
+}
+function ariba1(){
+    var input = parseInt(document.getElementById('input1').value);
+    if(input>=2 && input <=10){
+        input--;
+  document.getElementById("input1").value=input;
+    }
+  
+}
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+
+</body>
+</html>

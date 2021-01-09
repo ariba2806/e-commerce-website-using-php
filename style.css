@@ -1,0 +1,102 @@
+body{
+    background-color:#f5f5f5;
+}
+.font-size-12{
+    font-size:12px;
+}
+.font-size-14{
+    font-size:14px;
+}
+.font-size-16{
+    font-size:16px;
+}
+.font-size-20{
+    font-size:20px;
+}
+button,button:focus{
+    outline:none !important;
+    box-shadow:none !important;
+}
+.color-primary{
+    color:blue;
+}
+.color-primary-bg{
+    background:$color-primary;
+}
+.color-second{
+    background-color:black;
+}
+.color-second-bg{
+    background:$color-second;
+}
+.color-yellow{
+    background-color:purple;
+}
+.color-yellow-bg{
+    background:$color-primary;
+}
+.height{
+    height:200px;
+}
+
+.xyz{
+    height:200px;
+    width:300px;
+}
+.bg-pink{
+    background-color:pink;
+}
+.hy{
+    background-color:#1e90ff;
+}
+#top-sale .owl-carousel .item .product a img{
+       overflow:hidden;
+       margin-bottom:10px;
+}
+#top-sale .owl-carousel .item .product{
+       margin-right:7px;
+       margin-left:7px;
+       
+}
+#top-sale .owl-carousel .item .product img{
+       transition:transform 0.5s ease;
+
+   } 
+   #top-sale .owl-carousel .item .product img:hover{
+       transform:scale(1.2);
+   }
+   #top-sale .owl-carousel .owl-nav button{
+       position:absolute;
+       top:30%;
+       outline:none;
+   }
+   #top-sale .owl-carousel .owl-nav button.owl-prev{
+        left:0;
+       
+   }
+   #top-sale .owl-carousel .owl-nav button.owl-prev span{
+         font-size:35px;
+        background-color:white;
+        margin-left:-4rem;
+        padding:0 1rem;
+   }
+    #top-sale .owl-carousel .owl-nav button.owl-next{
+        right:0;
+       
+   }
+    #top-sale .owl-carousel .owl-nav button.owl-next span{
+         font-size:35px;
+        background-color:white;
+        margin-right:-4rem;
+        padding:0 1rem;
+   }
+   #special-price .grid .grid-item {
+        margin-right:1.2rem;
+        margin-bottom:11rem;
+   }
+   .abc{
+       background-color:grey;
+   }
+
+
+
